@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+/* Mỗi trình duyệt sẽ xuất hiện thanh cuộn vào thẻ html hoặc body */
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
