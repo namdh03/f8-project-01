@@ -164,7 +164,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ==================== Guides ==================== */
@@ -519,7 +531,7 @@ a {
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .subscription .desc {
@@ -527,7 +539,7 @@ a {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.88;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.75;
 }
 
@@ -555,17 +567,19 @@ a {
 }
 
 .footer .row.row-top {
-    gap: 185px
+    gap: 185px;
 }
 
 .footer .heading {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 700;
     font-size: 2rem;
-    color: #1C1C1D;
+    color: #1c1c1d;
 }
 
-.footer .list, .footer, .desc {
+.footer .list,
+.footer,
+.desc {
     margin-top: 42px;
 }
 
@@ -577,7 +591,7 @@ a {
 .footer .desc {
     font-weight: 400;
     font-size: 1.6rem;
-    color: #7A7A7E;
+    color: #7a7a7e;
     white-space: nowrap;
 }
 
@@ -613,5 +627,5 @@ a {
 .footer .copyright {
     font-weight: 400;
     font-size: 1.4rem;
-    color: #C2C2C2;
+    color: #c2c2c2;
 }
